@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato", serif;
+    /* font-family: "Playfair", serif; */
+    /* font-family: "Great Vibes", serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #020202;
+}
+
+.clear {
+    clear: both;
+}
+
+.header .navbar-light .navbar-nav .nav-link{
+    color:#ffcc33;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.header .button1{
+    justify-content: center;
+    
+}
+
+.banner {
+    background-image: url(../image/Banner-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 200px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.text-con {
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after {
+    position: absolute;
+    content: '';
+    background-color: #0202025f;
+    top: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+.banner h1 {
+    font-size: 75px;
+    font-family: "Great Vibes", serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    padding: 30px 0px;
+    margin-bottom: 50px;
+}
+
+.banner a {
+    padding: 20px 19px;
+    background-color: #fff;
+    color: #ffcc33;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.golden {
+    padding: 50px 0px;
+    background-color: #ffffcc;
+}
+.golden .image-grid img{
+    border: 2px solid #fff;
+}
+.promo-text h2 {
+    font-weight: bold;
+    color: #999999;
+
+}
+
+.promo-text h5 {
+    color: #090909;
+}
+
+.promo-text p {
+    color: #7a7168;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+}
+.voucher{
+    position: absolute;
+    top:115px;
+    bottom:0px;
+    left:170px;
+    right:0px;
+}
+.imgOverlay{
+    position: absolute;
+  content: '';
+  border: 5px solid #fff;
+  top: 12px;
+  bottom: 22px;
+  left: 9px;
+  right: 10px;
+}
+
+
+
+.room {
+    padding: 50px;
+}
+
+.room-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.room-card:hover .overlay {
+    opacity: 1;
+}
+.room h2{
+    font-size: 45px;
+}
+
+.room-card img {
+    width: 100%;
+    height: auto;
+}
+.room .room-card:hover h4{
+    color: #ffcc33;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 64px;
+    background: linear-gradient(to bottom, #ffffff69 0%, #f4ff3080 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    opacity: 0;
+}
+
+.overlay button {
+    background: #999999;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Touch{
+    background: #1e1e1e;
+    color: white;
+    padding: 50px 0;
+}
+
+.Touch input {
+    background: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Touch .subscribe-btn {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
